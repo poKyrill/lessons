@@ -1,0 +1,67 @@
+@import url("reset.css");
+
+* {
+	color: blue;
+}
+
+ul li{
+	color: red;
+}
+
+p {
+	color: orange;
+}
+
+h2 {
+	color: green;
+}
+
+.title {
+	color: pink;
+}
+
+.first-title {
+	color: brown;
+}
+
+#first-part {
+	color:black;
+}
+
+[class*="te"] {
+	color: red;
+}
+
+div.text {
+	color: blue;
+}
+
+.title,
+.text {
+	color: yellow;
+}
+
+.main a {
+	color: black;
+	text-decoration: underline;
+}
+
+.text p {
+	color: red;
+}
+
+.text * {
+	color: grey !important;
+}
+
+.main > p {
+	color: red;
+}
+
+.two-p ~ p {
+	color: brown;
+}
+
+.two-p + p {
+	color: red;
+}
