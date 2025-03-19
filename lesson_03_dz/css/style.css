@@ -5,7 +5,7 @@
 }
 
 ul li{
-	color: red;
+	/* color: red; */
 }
 
 p {
@@ -65,3 +65,35 @@ div.text {
 .two-p + p {
 	color: red;
 }
+
+
+/* доп завдання */
+li {
+	color: green;
+}
+
+li span {
+	color: green;
+}
+
+main > ul > li:first-child {
+	color:red;
+}
+
+li ul > li {
+	color: orange;
+}
+
+ul li span {
+	color: orange;
+}
+
+ol li, ul li ol span {
+	color: #5d5d5d;
+}
+
+ol li:first-child {
+	color: #4597f7;
+}
+
+
