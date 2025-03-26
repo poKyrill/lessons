@@ -68,7 +68,7 @@ div.text {
 
 
 /* доп завдання */
-li {
+/* li {
 	color: green;
 }
 
@@ -94,6 +94,13 @@ ol li, ul li ol span {
 
 ol li:first-child {
 	color: #4597f7;
-}
+} */
 
 
+
+/* ol li {
+	color: lightblue;
+} */
+/* ul li > * {
+	color: orange;
+} */
